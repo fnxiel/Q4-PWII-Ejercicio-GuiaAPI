@@ -4,13 +4,13 @@ export interface IPokemon{
     moves: IPokemonMove[] //A list of moves along with learn methods and level details pertaining to specific version groups.
     sprites: IPokemonSprite
 }
-interface IPokemonMove{
+export interface IPokemonMove{
     move: IDetalleMove
 }
-interface IDetalleMove{
+export interface IDetalleMove{
     id: number
     name: string
 }
-interface IPokemonSprite{
+export interface IPokemonSprite{
     front_default: string
 }
